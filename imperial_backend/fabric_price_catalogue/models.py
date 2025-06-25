@@ -21,7 +21,7 @@ class Market(models.Model):
     def __str__(self):
         return self.market_name
 
-class Trader(models.Model)
+class Trader(models.Model):
     name = models.CharField(max_length=50)
     gender = models.CharField(max_length=10)
     market_name = models.CharField(max_length=20)
